@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<meta name="theme-color" content="#071a33">
+<title>Web Rádio Vem Comigo Deus</title>
+<style>
+:root{--bg:#071a33;--panel:#0e2a4e;--gold:#F9B800;--gold2:#FFD85A;--white:#fff;--muted:#a9b7c9}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:radial-gradient(circle at top,#123760 0,#071a33 45%,#04101f 100%);font-family:Arial,sans-serif;color:#fff}
+body{display:grid;place-items:center;padding:18px}
+.card{width:min(94vw,430px);background:linear-gradient(180deg,rgba(18,55,96,.97),rgba(8,30,57,.98));border:1px solid rgba(249,184,0,.32);border-radius:28px;box-shadow:0 24px 70px rgba(0,0,0,.45);overflow:hidden}
+.hero{text-align:center;padding:26px 22px 16px}
+.logo{width:104px;height:104px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#071a33;font-size:32px;font-weight:900;box-shadow:0 0 0 7px rgba(249,184,0,.08),0 0 38px rgba(249,184,0,.22)}
+h1{margin:0;color:var(--gold);font-size:24px;line-height:1.15}
+.sub{margin-top:7px;color:var(--muted);font-size:13px}
+.live{display:inline-flex;align-items:center;gap:7px;margin-top:14px;padding:6px 11px;border-radius:999px;background:rgba(255,255,255,.06);font-size:12px;font-weight:700}
+.dot{width:8px;height:8px;border-radius:50%;background:#37e780;box-shadow:0 0 12px #37e780}
+.now{padding:0 22px 12px}
+.label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+.title{font-size:18px;font-weight:800;margin-top:5px}
+.widget-wrap{padding:4px 18px 20px}
+.widget-shell{background:#fff;border-radius:18px;overflow:hidden;padding:8px;min-height:120px}
+.notice{padding:0 22px 20px;color:var(--muted);font-size:12px;text-align:center}
+.footer{border-top:1px solid rgba(255,255,255,.08);padding:14px 18px;text-align:center;font-size:11px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="card">
+  <section class="hero">
+    <div class="logo">VC</div>
+    <h1>Web Rádio<br>Vem Comigo Deus</h1>
+    <div class="sub">Louvor, Palavra e Fé 24 horas</div>
+    <div class="live"><span class="dot"></span> NO AR</div>
+  </section>
+  <section class="now">
+    <div class="label">Agora na rádio</div>
+    <div class="title">Web Rádio Vem Comigo Deus</div>
+  </section>
+  <section class="widget-wrap">
+    <div class="widget-shell">
+      <div data-type="newStreamPlayer"
+           data-publicToken="bf175b49-6917-4ae4-aef3-ddae6a7bcd28"
+           data-theme="light"
+           data-color="F9B800"
+           data-channelId=""
+           data-rendered="false"
+           class="cstrEmbed">
+        <a href="https://www.caster.fm">Shoutcast Hosting</a>
+        <a href="https://www.caster.fm">Stream Hosting</a>
+        <a href="https://www.caster.fm">Radio Server Hosting</a>
+      </div>
+    </div>
+  </section>
+  <div class="notice">Toque no botão de reprodução do player acima para ouvir ao vivo.</div>
+  <div class="footer">Player oficial • Web Rádio Vem Comigo Deus</div>
+</main>
+<script src="https://cdn.cloud.caster.fm/widgets/embed.js"></script>
+</body>
+</html>
